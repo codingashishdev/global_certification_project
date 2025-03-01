@@ -19,7 +19,8 @@ header nav{
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
-    word-spacing: 10px;
+    /* word-spacing: 10px; */
+    height: 50px;
     background-color: violet;
 }
 
@@ -29,11 +30,11 @@ header .lists ul{
     align-items: center;
     list-style: none;
     text-decoration: none;
+    margin: 0px 20px;
 }
 
 header .lists ul li{
-    text-decoration: none;
-    word-spacing: 10px;
+    padding: 0px 10px;
 }
 
 main{
@@ -53,6 +54,11 @@ main .products{
     align-items: center;
     width: 100%;
     height: 78vh;
+}
+
+main .product:hover{
+    position: relative;
+    z-index: 2;
 }
 
 main .product{
@@ -81,15 +87,24 @@ main .product img{
 main .product button{
     padding: 3px 5px;
     background-color: rgb(59, 48, 48);
+    border: rgb(59, 48, 48);
     color: white;    
     border: none;
     margin: 7px;
+    padding: 3px 6px;
+    cursor: pointer;
 }
 
 footer{
     text-align: center;
-    height: 30px;
+    /* height: 30px; */
     background-color: rgb(114, 69, 220);
     color: white;
     border-top: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* padding-top: 15px; */
+    margin-bottom: 0;
+    line-height: 35px;
 }
