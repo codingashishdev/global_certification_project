@@ -56,11 +56,6 @@ main .products{
     height: 78vh;
 }
 
-main .product:hover{
-    position: relative;
-    z-index: 2;
-}
-
 main .product{
     width: 280px;
     height: 320px;
